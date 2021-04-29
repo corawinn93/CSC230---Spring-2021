@@ -64,6 +64,7 @@ aside {
 }
 aside blockquote {
    color: rgb(232, 165, 116);
+   margin: 20px 5px;
 }
 
 
@@ -76,20 +77,45 @@ nav {
 nav > ul {
    line-height: 2em;
 }
+nav > ul {
+   line-height: 2em;
+   list-style-type: none;
+   padding-left: 5px;
+}
+nav > ul > li.newgroup {
+   margin-top: 20px;
+}
 
 
 /* List Styles */
-
-
-
-
+article#about_tss ul li:first-of-type {
+   list-style-image: url(runicon.png);
+}
+article#about_tss ul li:nth-of-type(2) {
+   list-style-image: url(bikeicon.png);
+}
+article#about_tss ul li:last-of-type {
+   list-style-image: url(swimicon.png);
+}
+article.syllabus ol {
+   list-style-type: upper-roman;
+}
+article.syllabus ol ol {
+   list-style-type: upper-alpha;
+}
+article.syllabus ol ol ol {
+   list-style-type: decimal;
+}
+article#about_tss ul {
+   list-style-image: url(runicon.png);
+}
 
 /* Footer Styles */
 
 body > footer address {
-   background-color: rgb(222, 128, 60));
+   background-color: rgb(222, 128, 60);
    color: white;
-   color: rgba(255, 255, 0.7);
+   color: rgba(255, 255, 255, 0.7);
    font: normal small-caps bold 0.9em/3em Quicksand, Verdana, Geneva, sans-serif;
    text-align: center;
 }
