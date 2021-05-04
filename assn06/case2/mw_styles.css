@@ -23,28 +23,28 @@ body {
    background-color: rgb(227, 210, 173);
    font-family: 'Century Gothic', sans-serif;
 }
-body > footer address {
+footer {
    background-color: rgb(208, 184, 109);
-   padding-top: 10px;
-   padding-bottom: 10px;
-   font-weight: normal;
+   padding-top: 5px;
+   padding-bottom: 5px;
+}
+footer address {
+   font-style: normal;
    text-align: center;
    font-size: 0.9em;
+   padding-top: 10 px;
+   padding-bottom: 10px;
 }
 
 /* Heading Styles */
 
-h1 {
-   font-weight: normal;
-}
-
-h2 {
+h1, h2 {
    font-weight: normal;
 }
 
 /* Navigation Styles */
 
-nav > ul > li > a {
+nav > ul {
    list-style-type: none;
    line-height: 2em;
    font-size: 0.9em;
