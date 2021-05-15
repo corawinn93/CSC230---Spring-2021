@@ -29,7 +29,7 @@ div.row::after {
 
 /* Grid Columns Styles */
 
-div[class^='column']{float: left;}
+div[class^="column"]{float: left;}
 
 div.column100 {width: 100%;}
 div.column50 {width: 50%;}
@@ -48,7 +48,7 @@ div.column80 {width: 80%;}
 div.container, 
 div.row, 
 div.cell > a, 
-div[class^='column']{
+div[class^="column"]{
    box-sizing: border-box;
 }
 
