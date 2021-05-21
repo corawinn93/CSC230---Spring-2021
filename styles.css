@@ -3,9 +3,21 @@
 **/
 
 body {
-  background-color:red;
+  background-image: url(Space_Purple.jpg);
+  background-size: 100%;
+  font-style: bold;
+  font-family: 'Comic Sans MS', serif;
+  color: rgb(18, 253, 234);
 }
 
-h1 {
-  background-color: rgb(245, 27, 245);
+a:link {
+  color: rgb(18, 253, 234);
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  text-decoration: underline;
 }
