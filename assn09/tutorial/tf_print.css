@@ -4,8 +4,8 @@
    Tutorial 5
    Tutorial Case
    
-   Author:   
-   Date:     
+   Author: Cora Colwell   
+   Date: 5/25/2021    
    
    Filename: tf_print.css
 
@@ -18,7 +18,9 @@
 
 /* Hidden Objects */
 
-
+nav.horizontal, aside, footer {
+   display: none;
+}
 
 /* Page Box Styles */
 
