@@ -21,7 +21,7 @@ table {
 }
 
 table th, table td {
-   border: 3px soild gray;
+   border: solid gray;
    line-height: 1.4em;
    padding: 8px;
 }
