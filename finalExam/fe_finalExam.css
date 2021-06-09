@@ -14,10 +14,46 @@
 /* HTML and Body Styles */
 
 html {
-    font-family: Verdana, Tacoma, Helvetica, sans-serif;
-    font-size: 16em;
-    color: black;
-    width: 85%;
-    background-color: darkorchid;
+    background-color: darkturquoise;
 }
-   
+
+body {
+    font-family: sans-serif;
+    color: black;
+    font-size: 16pt;
+    width: 85%;
+    margin: auto;
+}
+
+body > footer {
+    width: 100%;
+}
+
+img {
+    display: block;
+    border-radius: 8px;
+    margin: auto;
+    float: right;
+    width: 25%;
+}
+
+header h1 {
+    background-color: lightsalmon;
+    font-size: 36px;
+    margin: 35px 0px 0px;
+    padding: 15px 0px 0px;
+}
+
+header h3 {
+    background-color: lightsalmon;
+    font-size: 24pt;
+    margin: 0px;
+    padding: 0px 0px 15px 15px;
+}
+
+h1 {
+    font-family: Arial;
+    background-color: lightsteelblue;
+    margin: 0px;
+    font-size: 22pt;
+}
