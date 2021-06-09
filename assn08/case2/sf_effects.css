@@ -35,7 +35,7 @@ body > header nav.tabs li {
 }
 
 body > header nav.tabs li:hover {
-  background-color: rgb(231, 231, 255);
+  background-color: rgb(231, 231, 231);
 }
 
 /* Left Section Styles */
