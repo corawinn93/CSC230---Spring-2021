@@ -11,49 +11,127 @@
 
 */
 
-/* HTML and Body Styles */
-
-html {
-    background-color: darkturquoise;
-}
+/* HTML and Body Styles*/
 
 body {
     font-family: sans-serif;
     color: black;
-    font-size: 16pt;
+    font-size: 14pt;
     width: 85%;
     margin: auto;
+    background-color: darkorange;
 }
 
-body > footer {
+header {
+    background-color: deepskyblue;
+    background-repeat: repeat;
     width: 100%;
-}
-
-img {
-    display: block;
-    border-radius: 8px;
-    margin: auto;
-    float: right;
-    width: 25%;
-}
-
-header h1 {
-    background-color: lightsalmon;
-    font-size: 36px;
-    margin: 35px 0px 0px;
-    padding: 15px 0px 0px;
-}
-
-header h3 {
-    background-color: lightsalmon;
-    font-size: 24pt;
-    margin: 0px;
-    padding: 0px 0px 15px 15px;
 }
 
 h1 {
     font-family: Arial;
-    background-color: lightsteelblue;
-    margin: 0px;
     font-size: 22pt;
+    text-align: left;
+    letter-spacing: 2px;
+    margin: 0px;
+    padding: 15px 0px 0px 15px;
+    background-color: darkturquoise;
+}
+
+h3{
+    font-size: 16pt;
+    text-align: left;
+    font-family: Arial;
+    background-color: forestgreen;
+}
+
+p{
+    margin: 15px;
+    padding: 15px;
+}
+
+a, a:hover {
+    text-decoration: none;
+    color: darkviolet;
+}
+
+table {
+    border: none;
+    padding: 2px 5px 5px 2px;
+    width: 90%;
+    margin-left: 30px;
+}
+
+
+body > article > section {
+    width: 92%;
+    padding: 15px;
+}
+
+/* Header Styles*/
+
+header h1 {
+    font-size: 36pt;
+    margin: 35px 0px 0px 0px;
+    padding: 15px 0px 15px 0px;
+    background-color: deepskyblue;
+}
+
+header h3 {
+    font-size: 24pt;
+    margin: 0px;
+    padding: 0px 0px 15px 15px;
+    background-color: deepskyblue;
+}
+
+img {
+    display: block;
+    float: right;
+    width: 15%;
+}
+
+/* Nav Styles */
+
+nav {
+    background-color: lightcyan;
+    color: darkslategrey;
+    text-align: center;
+    width: 25%;
+    padding: 0px;
+    margin: 0px;
+}
+
+/* Section Styles */
+
+section {
+    float: right;
+    background-color: lightskyblue;
+
+}
+
+th {
+    background-color: darkgrey;
+    font-weight: bold;
+    text-align: center;
+}
+
+tr {
+    text-align: center;
+}
+
+#myLinks {
+    text-align: left;
+    float: none;
+}
+
+ul {
+    list-style: none;
+    text-align: left;
+}
+
+
+/* Footer Styles */
+
+footer {
+    background-color: lightskyblue;
 }
