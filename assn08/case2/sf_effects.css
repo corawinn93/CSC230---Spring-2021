@@ -16,8 +16,9 @@
 /* Body Header Styles */
 
 body {
-   box-shadow: 10px 10px 50px;
-   color: rgb(51, 51, 51);
+   /* box-shadow: 10px 10px 50px;
+   color: rgb(51, 51, 51); */
+   box-shadow: 10px 0px 50px rgb(51, 51, 51), -10px 0px 50px rgb(51, 51, 51);
 }
 
 /* Navigation Tabs List Styles */
@@ -30,12 +31,11 @@ body > header nav.tabs {
 }
 
 body > header nav.tabs li {
-   transform: perspective(50px);
-   transform: rotateX(20deg);
+   transform: perspective(50px) rotateX(20deg);
 }
 
-body > haeder nav.tabs li:hover {
-   background color: rgb(231, 231, 231);
+body > header nav.tabs li:hover {
+   background-color: rgb(231, 231, 231);
 }  
 
 /* Left Section Styles */
